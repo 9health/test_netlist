@@ -76,6 +76,11 @@ XM1 y a VSSPIN VSSPIN sky130_fd_pr__nfet_01v8_lvt L=L_N W=W_N nf=1 ad='int((nf+1
 
 # How to run
 
+* Set PDK_ROOT environmental variable
+```
+export PDK_ROOT=~/pdk
+```
+
 * Source `ksource.sh` file
 ```
 $ source ksource.sh
