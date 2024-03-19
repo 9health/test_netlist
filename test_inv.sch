@@ -201,6 +201,9 @@ vvcc vcc 0
   write test_inv.raw
   quit 0
 .endc
+
+**** Add user lib
+.INCLUDE ./klib.spice
 "}
 C {devices/simulator_commands_shown.sym} 470 -690 0 0 {name=COMMANDS1
 simulator=xyce
