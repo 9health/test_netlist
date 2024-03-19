@@ -72,6 +72,7 @@ XM1 y a VSSPIN VSSPIN sky130_fd_pr__nfet_01v8_lvt L=L_N W=W_N nf=1 ad='int((nf+1
 * Replace 1 symbol in the test inverter schematic.
 * Include `klib.spice` file in the test inverter schematic.
 * Change type of symbols from subcircuit to primitive
+* Add the current director to the `xschemrc` file.
 
 # How to run
 
