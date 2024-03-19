@@ -97,5 +97,7 @@ $ xschem test_inv.sch
 
 # References
 
-* https://xschem.sourceforge.io/stefan/xschem_man/tutorial_use_existing_subckt.html
+* [[xschem.sourceforge.io] TUTORIAL: CREATE A SYMBOL AND USE AN EXISTING NETLIST](https://xschem.sourceforge.io/stefan/xschem_man/tutorial_use_existing_subckt.html)
+* [[tcl.tk] pwd](https://www.tcl.tk/man/tcl9.0/TclCmd/pwd.html) 
+* [[github.com] OSIC Multitool Sample analog inverter testbench](https://github.com/iic-jku/osic-multitool/blob/main/example/ana/tb_inv.sch)
 
