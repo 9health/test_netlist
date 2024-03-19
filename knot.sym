@@ -14,7 +14,7 @@ v {xschem version=2.9.8 file_version=1.2
 * limitations under the License.
 
 }
-G {type=subcircuit
+G {type=primitive
 format="@name @pinlist @VCCPIN @VSSPIN @symname W_N=@W_N L_N=@L_N W_P=@W_P L_P=@L_P m=@m"
 template="name=x1 m=1 
 + W_N=1 L_N=0.15 W_P=2 L_P=0.15 

@@ -71,6 +71,7 @@ XM1 y a VSSPIN VSSPIN sky130_fd_pr__nfet_01v8_lvt L=L_N W=W_N nf=1 ad='int((nf+1
 * Change lvtnot to klvtnot in the symbol file and the SPICE file.
 * Replace 1 symbol in the test inverter schematic.
 * Include `klib.spice` file in the test inverter schematic.
+* Change type of symbols from subcircuit to primitive
 
 # How to run
 
@@ -86,4 +87,9 @@ $ xschem test_inv.sch
 
 * Create a netlist and check SPICE file by clicking `Simulation > Edit Netlist`
 * Simulate and check waveform
+
+
+# References
+
+* https://xschem.sourceforge.io/stefan/xschem_man/tutorial_use_existing_subckt.html
 
