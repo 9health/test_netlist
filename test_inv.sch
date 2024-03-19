@@ -136,7 +136,7 @@ N 940 -290 940 -190 { lab=Y[0]}
 N 950 -300 1500 -300 {bus=true lab=Y[6:0]}
 N 280 -290 280 -130 { lab=Z[1]}
 N 1020 -290 1020 -130 { lab=Y[1]}
-C {devices/title.sym} 160 -30 0 0 {name=l1 author="Stefan Schippers"}
+C {devices/title.sym} 160 -30 0 0 {name=l1 author="Stefan Schippers + Hai modifed for knot and klvtnot"}
 C {devices/parax_cap.sym} 280 -120 0 0 {name=C1 gnd=0 value=4f m=1}
 C {devices/parax_cap.sym} 360 -120 0 0 {name=C2 gnd=0 value=4f m=1}
 C {devices/parax_cap.sym} 440 -120 0 0 {name=C3 gnd=0 value=4f m=1}
