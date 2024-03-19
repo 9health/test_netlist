@@ -202,8 +202,6 @@ vvcc vcc 0
   quit 0
 .endc
 
-**** Add user lib
-.INCLUDE ./klib.spice
 "}
 C {devices/simulator_commands_shown.sym} 470 -690 0 0 {name=COMMANDS1
 simulator=xyce
@@ -231,3 +229,10 @@ C {devices/bus_tap.sym} 1190 -300 3 1 {name=l12 lab=[3]}
 C {devices/bus_tap.sym} 1270 -300 3 1 {name=l13 lab=[4]}
 C {devices/bus_tap.sym} 1350 -300 3 1 {name=l14 lab=[5]}
 C {devices/bus_tap.sym} 1430 -300 3 1 {name=l15 lab=[6]}
+C {devices/code.sym} 20 -410 0 0 {name=USER_LIB
+only_toplevel=true
+format="tcleval( @value )"
+value="
+.include \\\\$::CUR_DIR\\\\/klib.spice
+"
+spice_ignore=false}
