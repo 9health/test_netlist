@@ -153,14 +153,14 @@ C {devices/parax_cap.sym} 1340 -120 0 0 {name=C12 gnd=0 value=4f m=1}
 C {devices/parax_cap.sym} 1420 -120 0 0 {name=C13 gnd=0 value=4f m=1}
 C {devices/parax_cap.sym} 1500 -120 0 0 {name=C14 gnd=0 value=4.01f m=1}
 C {devices/lab_pin.sym} 1500 -300 0 1 {name=l17 sig_type=std_logic lab=Y[6:0]}
-C {sky130_tests/not.sym} 240 -190 0 0 {name=x4 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
+C {knot.sym} 240 -190 0 0 {name=x4 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
 C {sky130_tests/not.sym} 320 -190 0 0 {name=x1 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
 C {sky130_tests/not.sym} 400 -190 0 0 {name=x2 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
 C {sky130_tests/not.sym} 480 -190 0 0 {name=x3 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
 C {sky130_tests/not.sym} 560 -190 0 0 {name=x5 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
 C {sky130_tests/not.sym} 640 -190 0 0 {name=x6 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
 C {sky130_tests/not.sym} 720 -190 0 0 {name=x7 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.15}
-C {sky130_tests/lvtnot.sym} 980 -190 0 0 {name=x8 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.35}
+C {klvtnot.sym} 980 -190 0 0 {name=x8 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.35}
 C {sky130_tests/lvtnot.sym} 1060 -190 0 0 {name=x9 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.35}
 C {sky130_tests/lvtnot.sym} 1140 -190 0 0 {name=x10 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.35}
 C {sky130_tests/lvtnot.sym} 1220 -190 0 0 {name=x11 m=1 VCCPIN=VCC VSSPIN=VSS W_N=1 L_N=0.15 W_P=2 L_P=0.35}
